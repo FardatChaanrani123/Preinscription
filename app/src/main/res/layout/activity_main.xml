@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preinscription"
+        android:textAlignment="gravity"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+         />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir le nom"
+        android:layout_marginTop="20dp"
+        android:minHeight="20dp"
+        android:inputType="text"
+         />
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir le telephone"
+        android:layout_marginTop="20dp"
+        android:minHeight="20dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/naissance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir la date de naissance"
+        android:layout_marginTop="20dp"
+        android:minHeight="20dp"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="107dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="107dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Enregistrer" />
+
+        <Button
+            android:id="@+id/btnAnnuler"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:text="Annuler" />
+    </LinearLayout>
+
+
+</LinearLayout>

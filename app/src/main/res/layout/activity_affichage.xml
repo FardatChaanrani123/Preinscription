@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Affichage"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information Inscription"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/nomSvg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nom"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/telephoneSvg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/naissSvg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naissance"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/paysSvg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pays"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/filiereSvg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="filiere"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Envoyer"/>
+
+        <Button
+            android:id="@+id/btnRetour"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Retour"/>
+    </LinearLayout>
+
+</LinearLayout>
